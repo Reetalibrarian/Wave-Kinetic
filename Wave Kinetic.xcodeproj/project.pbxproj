@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6D2F0C7D1EC6D7EF00E0F192 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D2F0C7C1EC6D7EF00E0F192 /* main.m */; };
+		6D2F0C801EC6D7EF00E0F192 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D2F0C7F1EC6D7EF00E0F192 /* AppDelegate.m */; };
+		6D2F0C831EC6D7EF00E0F192 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D2F0C821EC6D7EF00E0F192 /* ViewController.m */; };
+		6D2F0C861EC6D7EF00E0F192 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D2F0C841EC6D7EF00E0F192 /* Main.storyboard */; };
+		6D2F0C891EC6D7EF00E0F192 /* Wave_Kinetic.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6D2F0C871EC6D7EF00E0F192 /* Wave_Kinetic.xcdatamodeld */; };
+		6D2F0C8B1EC6D7EF00E0F192 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D2F0C8A1EC6D7EF00E0F192 /* Assets.xcassets */; };
+		6D2F0C8E1EC6D7EF00E0F192 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D2F0C8C1EC6D7EF00E0F192 /* LaunchScreen.storyboard */; };
+		6D2F0C991EC6D7EF00E0F192 /* Wave_KineticTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D2F0C981EC6D7EF00E0F192 /* Wave_KineticTests.m */; };
+		6D2F0CA41EC6D7EF00E0F192 /* Wave_KineticUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D2F0CA31EC6D7EF00E0F192 /* Wave_KineticUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6D2F0C951EC6D7EF00E0F192 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6D2F0C701EC6D7EF00E0F192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D2F0C771EC6D7EF00E0F192;
+			remoteInfo = "Wave Kinetic";
+		};
+		6D2F0CA01EC6D7EF00E0F192 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6D2F0C701EC6D7EF00E0F192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D2F0C771EC6D7EF00E0F192;
+			remoteInfo = "Wave Kinetic";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6D2F0C781EC6D7EF00E0F192 /* Wave Kinetic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wave Kinetic.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D2F0C7C1EC6D7EF00E0F192 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6D2F0C7E1EC6D7EF00E0F192 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6D2F0C7F1EC6D7EF00E0F192 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6D2F0C811EC6D7EF00E0F192 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6D2F0C821EC6D7EF00E0F192 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6D2F0C851EC6D7EF00E0F192 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6D2F0C881EC6D7EF00E0F192 /* Wave_Kinetic.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Wave_Kinetic.xcdatamodel; sourceTree = "<group>"; };
+		6D2F0C8A1EC6D7EF00E0F192 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6D2F0C8D1EC6D7EF00E0F192 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6D2F0C8F1EC6D7EF00E0F192 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D2F0C941EC6D7EF00E0F192 /* Wave KineticTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Wave KineticTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D2F0C981EC6D7EF00E0F192 /* Wave_KineticTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Wave_KineticTests.m; sourceTree = "<group>"; };
+		6D2F0C9A1EC6D7EF00E0F192 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D2F0C9F1EC6D7EF00E0F192 /* Wave KineticUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Wave KineticUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D2F0CA31EC6D7EF00E0F192 /* Wave_KineticUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Wave_KineticUITests.m; sourceTree = "<group>"; };
+		6D2F0CA51EC6D7EF00E0F192 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6D2F0C751EC6D7EF00E0F192 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D2F0C911EC6D7EF00E0F192 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D2F0C9C1EC6D7EF00E0F192 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6D2F0C6F1EC6D7EF00E0F192 = {
+			isa = PBXGroup;
+			children = (
+				6D2F0C7A1EC6D7EF00E0F192 /* Wave Kinetic */,
+				6D2F0C971EC6D7EF00E0F192 /* Wave KineticTests */,
+				6D2F0CA21EC6D7EF00E0F192 /* Wave KineticUITests */,
+				6D2F0C791EC6D7EF00E0F192 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6D2F0C791EC6D7EF00E0F192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6D2F0C781EC6D7EF00E0F192 /* Wave Kinetic.app */,
+				6D2F0C941EC6D7EF00E0F192 /* Wave KineticTests.xctest */,
+				6D2F0C9F1EC6D7EF00E0F192 /* Wave KineticUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6D2F0C7A1EC6D7EF00E0F192 /* Wave Kinetic */ = {
+			isa = PBXGroup;
+			children = (
+				6D2F0C7E1EC6D7EF00E0F192 /* AppDelegate.h */,
+				6D2F0C7F1EC6D7EF00E0F192 /* AppDelegate.m */,
+				6D2F0C811EC6D7EF00E0F192 /* ViewController.h */,
+				6D2F0C821EC6D7EF00E0F192 /* ViewController.m */,
+				6D2F0C841EC6D7EF00E0F192 /* Main.storyboard */,
+				6D2F0C8A1EC6D7EF00E0F192 /* Assets.xcassets */,
+				6D2F0C8C1EC6D7EF00E0F192 /* LaunchScreen.storyboard */,
+				6D2F0C8F1EC6D7EF00E0F192 /* Info.plist */,
+				6D2F0C871EC6D7EF00E0F192 /* Wave_Kinetic.xcdatamodeld */,
+				6D2F0C7B1EC6D7EF00E0F192 /* Supporting Files */,
+			);
+			path = "Wave Kinetic";
+			sourceTree = "<group>";
+		};
+		6D2F0C7B1EC6D7EF00E0F192 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6D2F0C7C1EC6D7EF00E0F192 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6D2F0C971EC6D7EF00E0F192 /* Wave KineticTests */ = {
+			isa = PBXGroup;
+			children = (
+				6D2F0C981EC6D7EF00E0F192 /* Wave_KineticTests.m */,
+				6D2F0C9A1EC6D7EF00E0F192 /* Info.plist */,
+			);
+			path = "Wave KineticTests";
+			sourceTree = "<group>";
+		};
+		6D2F0CA21EC6D7EF00E0F192 /* Wave KineticUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6D2F0CA31EC6D7EF00E0F192 /* Wave_KineticUITests.m */,
+				6D2F0CA51EC6D7EF00E0F192 /* Info.plist */,
+			);
+			path = "Wave KineticUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6D2F0C771EC6D7EF00E0F192 /* Wave Kinetic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D2F0CA81EC6D7EF00E0F192 /* Build configuration list for PBXNativeTarget "Wave Kinetic" */;
+			buildPhases = (
+				6D2F0C741EC6D7EF00E0F192 /* Sources */,
+				6D2F0C751EC6D7EF00E0F192 /* Frameworks */,
+				6D2F0C761EC6D7EF00E0F192 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Wave Kinetic";
+			productName = "Wave Kinetic";
+			productReference = 6D2F0C781EC6D7EF00E0F192 /* Wave Kinetic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6D2F0C931EC6D7EF00E0F192 /* Wave KineticTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D2F0CAB1EC6D7EF00E0F192 /* Build configuration list for PBXNativeTarget "Wave KineticTests" */;
+			buildPhases = (
+				6D2F0C901EC6D7EF00E0F192 /* Sources */,
+				6D2F0C911EC6D7EF00E0F192 /* Frameworks */,
+				6D2F0C921EC6D7EF00E0F192 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6D2F0C961EC6D7EF00E0F192 /* PBXTargetDependency */,
+			);
+			name = "Wave KineticTests";
+			productName = "Wave KineticTests";
+			productReference = 6D2F0C941EC6D7EF00E0F192 /* Wave KineticTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6D2F0C9E1EC6D7EF00E0F192 /* Wave KineticUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D2F0CAE1EC6D7EF00E0F192 /* Build configuration list for PBXNativeTarget "Wave KineticUITests" */;
+			buildPhases = (
+				6D2F0C9B1EC6D7EF00E0F192 /* Sources */,
+				6D2F0C9C1EC6D7EF00E0F192 /* Frameworks */,
+				6D2F0C9D1EC6D7EF00E0F192 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6D2F0CA11EC6D7EF00E0F192 /* PBXTargetDependency */,
+			);
+			name = "Wave KineticUITests";
+			productName = "Wave KineticUITests";
+			productReference = 6D2F0C9F1EC6D7EF00E0F192 /* Wave KineticUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6D2F0C701EC6D7EF00E0F192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = YILING;
+				TargetAttributes = {
+					6D2F0C771EC6D7EF00E0F192 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					6D2F0C931EC6D7EF00E0F192 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6D2F0C771EC6D7EF00E0F192;
+					};
+					6D2F0C9E1EC6D7EF00E0F192 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6D2F0C771EC6D7EF00E0F192;
+					};
+				};
+			};
+			buildConfigurationList = 6D2F0C731EC6D7EF00E0F192 /* Build configuration list for PBXProject "Wave Kinetic" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6D2F0C6F1EC6D7EF00E0F192;
+			productRefGroup = 6D2F0C791EC6D7EF00E0F192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6D2F0C771EC6D7EF00E0F192 /* Wave Kinetic */,
+				6D2F0C931EC6D7EF00E0F192 /* Wave KineticTests */,
+				6D2F0C9E1EC6D7EF00E0F192 /* Wave KineticUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6D2F0C761EC6D7EF00E0F192 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D2F0C8E1EC6D7EF00E0F192 /* LaunchScreen.storyboard in Resources */,
+				6D2F0C8B1EC6D7EF00E0F192 /* Assets.xcassets in Resources */,
+				6D2F0C861EC6D7EF00E0F192 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D2F0C921EC6D7EF00E0F192 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D2F0C9D1EC6D7EF00E0F192 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6D2F0C741EC6D7EF00E0F192 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D2F0C831EC6D7EF00E0F192 /* ViewController.m in Sources */,
+				6D2F0C801EC6D7EF00E0F192 /* AppDelegate.m in Sources */,
+				6D2F0C891EC6D7EF00E0F192 /* Wave_Kinetic.xcdatamodeld in Sources */,
+				6D2F0C7D1EC6D7EF00E0F192 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D2F0C901EC6D7EF00E0F192 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D2F0C991EC6D7EF00E0F192 /* Wave_KineticTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D2F0C9B1EC6D7EF00E0F192 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D2F0CA41EC6D7EF00E0F192 /* Wave_KineticUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6D2F0C961EC6D7EF00E0F192 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6D2F0C771EC6D7EF00E0F192 /* Wave Kinetic */;
+			targetProxy = 6D2F0C951EC6D7EF00E0F192 /* PBXContainerItemProxy */;
+		};
+		6D2F0CA11EC6D7EF00E0F192 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6D2F0C771EC6D7EF00E0F192 /* Wave Kinetic */;
+			targetProxy = 6D2F0CA01EC6D7EF00E0F192 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6D2F0C841EC6D7EF00E0F192 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D2F0C851EC6D7EF00E0F192 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6D2F0C8C1EC6D7EF00E0F192 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D2F0C8D1EC6D7EF00E0F192 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6D2F0CA61EC6D7EF00E0F192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6D2F0CA71EC6D7EF00E0F192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6D2F0CA91EC6D7EF00E0F192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Wave Kinetic/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AC.Wave-Kinetic";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6D2F0CAA1EC6D7EF00E0F192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Wave Kinetic/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AC.Wave-Kinetic";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6D2F0CAC1EC6D7EF00E0F192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Wave KineticTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AC.Wave-KineticTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wave Kinetic.app/Wave Kinetic";
+			};
+			name = Debug;
+		};
+		6D2F0CAD1EC6D7EF00E0F192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Wave KineticTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AC.Wave-KineticTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wave Kinetic.app/Wave Kinetic";
+			};
+			name = Release;
+		};
+		6D2F0CAF1EC6D7EF00E0F192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Wave KineticUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AC.Wave-KineticUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Wave Kinetic";
+			};
+			name = Debug;
+		};
+		6D2F0CB01EC6D7EF00E0F192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Wave KineticUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AC.Wave-KineticUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Wave Kinetic";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6D2F0C731EC6D7EF00E0F192 /* Build configuration list for PBXProject "Wave Kinetic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D2F0CA61EC6D7EF00E0F192 /* Debug */,
+				6D2F0CA71EC6D7EF00E0F192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D2F0CA81EC6D7EF00E0F192 /* Build configuration list for PBXNativeTarget "Wave Kinetic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D2F0CA91EC6D7EF00E0F192 /* Debug */,
+				6D2F0CAA1EC6D7EF00E0F192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6D2F0CAB1EC6D7EF00E0F192 /* Build configuration list for PBXNativeTarget "Wave KineticTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D2F0CAC1EC6D7EF00E0F192 /* Debug */,
+				6D2F0CAD1EC6D7EF00E0F192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6D2F0CAE1EC6D7EF00E0F192 /* Build configuration list for PBXNativeTarget "Wave KineticUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D2F0CAF1EC6D7EF00E0F192 /* Debug */,
+				6D2F0CB01EC6D7EF00E0F192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6D2F0C871EC6D7EF00E0F192 /* Wave_Kinetic.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6D2F0C881EC6D7EF00E0F192 /* Wave_Kinetic.xcdatamodel */,
+			);
+			currentVersion = 6D2F0C881EC6D7EF00E0F192 /* Wave_Kinetic.xcdatamodel */;
+			path = Wave_Kinetic.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6D2F0C701EC6D7EF00E0F192 /* Project object */;
+}
